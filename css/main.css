@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.image-flex {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  padding-top: 1rem;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.fish {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-width: 50em;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: .5rem;
+}
+
+p {
+  font-size: 2rem;
+  margin-top: 1.7rem;
+  margin-bottom: 1.7rem;
+}
