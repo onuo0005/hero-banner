@@ -1,18 +1,18 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.image-flex {
+.img-flex {
   display: block;
   width: 100%;
 }
 
-h1 {
+h2 {
   margin: 0;
   font-size: 4rem;
   background-color: rgba(0, 0, 0, .5);
@@ -35,7 +35,6 @@ body {
   bottom: 0;
   width: 100%;
   max-width: 50em;
-  position: absolute;
   left: 50%;
   transform: translateX(-50%);
   padding-left: 1.5rem;
